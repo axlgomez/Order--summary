@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-color: #e0e8ff;
+  background-image: url(/images/pattern-background-mobile.svg);
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+  }
+  .container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .container .card {
+    max-width: 340px;
+  }
+  .container .card .card__content h3 {
+    font-size: 21px;
+  }
+  .container .card .card__content p {
+    line-height: 1.4;
+    width: 240px;
+    margin-bottom: -10px;
+  }
+  .container .card .card__content .card__components {
+    margin: 3rem;
+  }
+  .container .card .card__content .card__components .card__icon img {
+    width: 35px;
+    position: absolute;
+    top: 18px;
+    left: 24px;
+  }
+  .container .card .card__content .card__components .card__price p {
+    font-size: 12.5px;
+    position: absolute;
+    left: -10px;
+    line-height: 1.7;
+  }
+  .container .card .card__content .card__components .card_link a {
+    position: absolute;
+    right: 20px;
+  }
+  .container .card .card__content .card__buttons {
+    padding-bottom: 75px;
+  }
+  .container .card .card__content .card__buttons button {
+    padding: 12px 75px;
+  }
+  .container .card .card__content .card__buttons a {
+    font-size: 12px;
+    position: absolute;
+    top: 60%;
+  }
+}
+
+.container {
+  padding-top: 80px;
+}
+
+.card {
+  background-color: #fff;
+  max-width: 285px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.card .card__img img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card .card__content {
+  text-align: center;
+}
+
+.card .card__content h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: -2px;
+  font-weight: 900;
+  color: #424242;
+}
+
+.card .card__content p {
+  font-size: 13px;
+  color: #7280a7;
+  line-height: 1.7;
+  width: 220px;
+  margin: auto;
+}
+
+.card .card__content .card__components {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #f5f7ff;
+  padding-bottom: 7rem;
+  margin: 2rem;
+  border-radius: 10px;
+}
+
+.card .card__content .card__components .card__icon img {
+  width: 42px;
+  position: absolute;
+  top: 14px;
+  left: 16px;
+}
+
+.card .card__content .card__components .card__price p {
+  font-size: 12px;
+  position: absolute;
+  left: 0px;
+  top: 15px;
+}
+
+.card .card__content .card__components .card__price p span {
+  font-size: 12.5px;
+  font-weight: 900;
+  color: #424242;
+}
+
+.card .card__content .card__components .card_link {
+  font-size: 11.5px;
+  font-weight: 900;
+}
+
+.card .card__content .card__components .card_link a {
+  position: absolute;
+  top: 28px;
+  right: 14px;
+}
+
+.card .card__content .card__components .card_link a:hover {
+  opacity: .7;
+  text-decoration: none;
+}
+
+.card .card__content .card__buttons {
+  position: relative;
+  padding-bottom: 65px;
+}
+
+.card .card__content .card__buttons button {
+  display: block;
+  margin: auto;
+  padding: 14px 58px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #3829e0;
+  border: none;
+  border-radius: 12px;
+}
+
+.card .card__content .card__buttons button:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.card .card__content .card__buttons a {
+  text-decoration: none;
+  color: #7280a7;
+  font-size: 13px;
+  font-weight: 900;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.card .card__content .card__buttons a:hover {
+  color: #3829e0;
+}
+/*# sourceMappingURL=style.css.map */

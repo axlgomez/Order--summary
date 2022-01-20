@@ -1,0 +1,94 @@
+@media screen and (min-width: 1440px) 
+{
+    body 
+    {
+        background-image: url(/images/pattern-background-desktop.svg);
+    }
+    .container
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        .card 
+        {
+            max-width: 340px;
+
+            .card__content
+            {
+
+                h3
+                {
+                    font-size: 21px;
+                }
+
+                p 
+                {
+                    line-height: 1.4;
+                    width: 240px;
+                    margin-bottom: -10px;
+                }
+
+                .card__components
+                {
+                    margin: 3rem;
+
+                    .card__icon
+                    {
+                        img
+                        {
+                            width: 35px;
+                            position: absolute;
+                            top: 18px;
+                            left: 24px;
+                        }
+                    }
+
+                    .card__price
+                    {
+                        p 
+                        {
+                            font-size: 12.5px;
+                            position: absolute;
+                            left: -10px;
+                            line-height: 1.7;
+                        }
+                    }
+
+                    .card_link
+                    {
+                        a 
+                        {
+                            position: absolute;
+                            right: 20px;
+
+                            
+                        }
+                    }
+
+                }
+
+                .card__buttons
+                {
+                    padding-bottom: 75px;
+                
+                    button
+                    {
+                        padding: 12px 75px;
+                    }
+
+                    a
+                    {
+                        font-size: 12px;
+                        position: absolute;
+                        top: 60%;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
